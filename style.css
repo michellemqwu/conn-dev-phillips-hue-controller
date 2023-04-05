@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
+  .mySliders { 
+    width: 150px;
+    height: 25px;
+  }
+  
+  /* This is the "track" that the slider sits on  */
+  .mySliders::-webkit-slider-runnable-track {
+    background: #d3d3d3;
+    width: 20px;
+    height: 3px;
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+  
+  /* This is the moveable bit of the slider, known as the "thumb"*/
+  .mySliders::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    background: #000000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -12px; 
+  }
+  
